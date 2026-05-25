@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BIG TOYS – Karnataka's #1 luxury ride-on toy rental service. Lamborghinis, ATVs, Supercars & more available across all of Karnataka. Book now!" />
+  <meta name="keywords" content="big toys Karnataka, luxury toy rental, ride on cars Karnataka, kids ride on, Lamborghini toy rental Bengaluru, toy rental Mysuru, kids entertainment Karnataka" />
+  <meta name="author" content="BIG TOYS" />
+  <meta property="og:title" content="BIG TOYS – Luxury Ride-On Toy Rentals Across Karnataka" />
+  <meta property="og:description" content="Karnataka's most thrilling luxury toy rental experience. Supercars, ATVs, bikes & more. Book in 10 digits." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bigtoys.in" />
+  <title>BIG TOYS – Luxury Ride-On Rentals | All Over Karnataka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav-header" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="brand">
+      <span class="brand-big">BIG</span><span class="brand-toys">TOYS</span>
+      <span class="brand-tag">KARNATAKA</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#toys">Our Toys</a>
+      <a href="#features">Features</a>
+      <a href="#blog">Blog</a>
+      <a href="#booking" class="nav-cta">Book Now</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#toys" onclick="closeMobile()">Our Toys</a>
+    <a href="#features" onclick="closeMobile()">Features</a>
+    <a href="#blog" onclick="closeMobile()">Blog</a>
+    <a href="#booking" class="nav-cta" onclick="closeMobile()">Book Now</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-glow g1"></div>
+    <div class="hero-glow g2"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-label">Available All Over Karnataka</div>
+    <h1 class="hero-title">
+      <span class="line1">DRIVE</span>
+      <span class="line2">BIG.</span>
+      <span class="line3">DREAM BIGGER.</span>
+    </h1>
+    <p class="hero-sub">Karnataka's most electrifying luxury ride-on toy rentals — supercars, ATVs & more delivered to your doorstep.</p>
+    <div class="hero-actions">
+      <a href="#booking" class="btn-primary">Book Your Toy</a>
+      <a href="#toys" class="btn-ghost">See Our Fleet →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-n">500+</span><span class="stat-l">Happy Kids</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">30+</span><span class="stat-l">Districts Covered</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">15+</span><span class="stat-l">Premium Models</span></div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- TOYS GALLERY -->
+<section class="toys-section" id="toys">
+  <div class="section-container">
+    <div class="section-header">
+      <div class="section-eyebrow">Our Premium Fleet</div>
+      <h2 class="section-title">FAMOUS <span class="accent">TOYS</span></h2>
+      <p class="section-sub">Each toy is meticulously maintained, fully charged, and delivered event-ready.</p>
+    </div>
+    <div class="toys-grid">
+
+      <div class="toy-card" data-index="01">
+        <div class="toy-img-wrap">
+          <img src="https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=700&q=80" alt="Kids Lamborghini Ride-On Car - BIG TOYS Karnataka" loading="lazy"/>
+          <div class="toy-badge">Most Popular</div>
+          <div class="toy-overlay"><a href="#booking" class="toy-book-btn">Book Now</a></div>
+        </div>
+        <div class="toy-info">
+          <div class="toy-num">01</div>
+          <h3 class="toy-name">Lamborghini Supercar</h3>
+          <p class="toy-desc">A roaring replica with real working headlights and a 2-speed gearbox that delivers the ultimate miniature supercar experience.</p>
+          <div class="toy-meta">
+            <span class="toy-age">Ages 3–8</span>
+            <span class="toy-price">From ₹499/hr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toy-card" data-index="02">
+        <div class="toy-img-wrap">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80" alt="Kids ATV Quad Ride-On - BIG TOYS Karnataka" loading="lazy"/>
+          <div class="toy-overlay"><a href="#booking" class="toy-book-btn">Book Now</a></div>
+        </div>
+        <div class="toy-info">
+          <div class="toy-num">02</div>
+          <h3 class="toy-name">Monster ATV Quad</h3>
+          <p class="toy-desc">Rugged all-terrain quad with oversized grip tyres and a parental remote override for maximum adventure with complete safety.</p>
+          <div class="toy-meta">
+            <span class="toy-age">Ages 4–10</span>
+            <span class="toy-price">From ₹549/hr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toy-card" data-index="03">
+        <div class="toy-img-wrap">
+          <img src="https://images.unsplash.com/photo-1612198273689-b4e84d8c1c56?w=700&q=80" alt="Kids Electric Sports Bike - BIG TOYS Karnataka" loading="lazy"/>
+          <div class="toy-overlay"><a href="#booking" class="toy-book-btn">Book Now</a></div>
+        </div>
+        <div class="toy-info">
+          <div class="toy-num">03</div>
+          <h3 class="toy-name">Electric Sports Bike</h3>
+          <p class="toy-desc">A fully battery-powered sport motorcycle with LED racing lights and authentic engine sound effects for the young speed enthusiast.</p>
+          <div class="toy-meta">
+            <span class="toy-age">Ages 3–7</span>
+            <span class="toy-price">From ₹449/hr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="toy-card" data-index="04">
+        <div class="toy-img-wrap">
+          <img src="https://images.unsplash.com/photo-1565043666747-69f6646db940?w=700&q=80" alt="Mini Jeep SUV Ride-On - BIG TOYS Karnataka" loading="lazy"/>
+          <div class="toy-overlay"><a href="#booking" class="toy-book-btn">Book Now</a></div>
+        </div>
+        <div class="toy-info">
+          <div class="toy-num">04</div>
+          <h3 class="toy-name">Luxury Mini Jeep SUV</h3>
+          <p class="toy-desc">A two-seater electric Jeep replica with a working FM radio, USB port, and smooth suspension for the ultimate co-pilot experience.</p>
+          <div class="toy-meta">
+            <span class="toy-age">Ages 3–9</span>
+            <span class="toy-price">From ₹599/hr</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section" id="features">
+  <div class="section-container">
+    <div class="features-layout">
+      <div class="features-left">
+        <div class="section-eyebrow">Why BIG TOYS</div>
+        <h2 class="section-title">THE <span class="accent">DIFFERENCE</span><br/>IS IN THE<br/>DETAILS.</h2>
+        <p class="features-body">From Bengaluru to Bidar, Mysuru to Mangaluru — BIG TOYS delivers premium ride-on experiences at every event, birthday, or celebration across Karnataka.</p>
+        <a href="#booking" class="btn-primary">Reserve Your Fleet</a>
+      </div>
+      <div class="features-right">
+        <div class="feat-item">
+          <div class="feat-icon">⚡</div>
+          <div>
+            <h4>Fully Charged & Event-Ready</h4>
+            <p>Every toy arrives 100% charged with backup batteries included so the fun never stops.</p>
+          </div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon">🛡️</div>
+          <div>
+            <h4>Safety-Certified Vehicles</h4>
+            <p>Parental remote control, seat belts, and speed governors on every model for total peace of mind.</p>
+          </div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon">🚚</div>
+          <div>
+            <h4>Doorstep Delivery Statewide</h4>
+            <p>We deliver and pick up across all 30+ districts of Karnataka — you focus on the celebration.</p>
+          </div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon">📸</div>
+          <div>
+            <h4>Photo-Worthy Setups</h4>
+            <p>Branded backdrops and premium toy presentation for those priceless memory moments.</p>
+          </div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon">🎉</div>
+          <div>
+            <h4>Events of All Sizes</h4>
+            <p>Birthday parties, corporate events, school fairs, mall activations — no event is too big or small.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking-section" id="booking">
+  <div class="booking-bg"><div class="booking-glow"></div></div>
+  <div class="section-container">
+    <div class="section-header light">
+      <div class="section-eyebrow">Quick Booking</div>
+      <h2 class="section-title">BOOK IN <span class="accent">10 DIGITS</span></h2>
+      <p class="section-sub">Enter your 10-digit mobile number and our team will call you back within 30 minutes.</p>
+    </div>
+    <div class="booking-wrapper">
+      <div class="booking-card">
+        <div class="booking-steps">
+          <div class="bstep active" id="step-indicator-1">
+            <span class="bstep-n">1</span><span class="bstep-l">Enter Number</span>
+          </div>
+          <div class="bstep-line"></div>
+          <div class="bstep" id="step-indicator-2">
+            <span class="bstep-n">2</span><span class="bstep-l">Choose Toy</span>
+          </div>
+          <div class="bstep-line"></div>
+          <div class="bstep" id="step-indicator-3">
+            <span class="bstep-n">3</span><span class="bstep-l">Confirm</span>
+          </div>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="booking-step-content" id="booking-step-1">
+          <h3>Enter Your 10-Digit Mobile Number</h3>
+          <p class="booking-note">Our team will call you back within 30 minutes.</p>
+          <div class="phone-input-wrap">
+            <span class="phone-prefix">+91</span>
+            <div class="digit-boxes" id="digitBoxes">
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 1"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 2"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 3"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 4"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 5"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 6"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 7"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 8"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 9"/>
+              <input type="tel" maxlength="1" class="digit-box" inputmode="numeric" pattern="[0-9]" aria-label="Digit 10"/>
+            </div>
+          </div>
+          <div class="digit-error" id="digitError">Please enter a valid 10-digit mobile number.</div>
+          <button class="btn-primary full-w" id="nextStep1">Next: Choose Your Toy →</button>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="booking-step-content hidden" id="booking-step-2">
+          <h3>Choose Your Toy & Event Details</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Select Toy</label>
+              <select id="toySelect">
+                <option value="">-- Pick a toy --</option>
+                <option>Lamborghini Supercar</option>
+                <option>Monster ATV Quad</option>
+                <option>Electric Sports Bike</option>
+                <option>Luxury Mini Jeep SUV</option>
+                <option>Multiple Toys Package</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Event Date</label>
+              <input type="date" id="eventDate" min=""/>
+            </div>
+            <div class="form-group">
+              <label>Duration</label>
+              <select id="duration">
+                <option>1 Hour</option>
+                <option>2 Hours</option>
+                <option>Half Day (4 hrs)</option>
+                <option>Full Day (8 hrs)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>City / District</label>
+              <select id="citySelect">
+                <option value="">-- Select district --</option>
+                <option>Bengaluru Urban</option>
+                <option>Bengaluru Rural</option>
+                <option>Mysuru</option>
+                <option>Mangaluru</option>
+                <option>Hubballi-Dharwad</option>
+                <option>Belagavi</option>
+                <option>Kalaburagi</option>
+                <option>Tumakuru</option>
+                <option>Shivamogga</option>
+                <option>Vijayapura</option>
+                <option>Ballari</option>
+                <option>Hassan</option>
+                <option>Davanagere</option>
+                <option>Udupi</option>
+                <option>Raichur</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="booking-btn-row">
+            <button class="btn-ghost" id="backStep2">← Back</button>
+            <button class="btn-primary" id="nextStep2">Confirm Booking →</button>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="booking-step-content hidden" id="booking-step-3">
+          <div class="success-icon">🎉</div>
+          <h3>Booking Request Received!</h3>
+          <p class="booking-note">Our team will call <strong id="confirmPhone"></strong> within <strong>30 minutes</strong> to confirm your booking.</p>
+          <div class="confirm-details" id="confirmDetails"></div>
+          <div class="booking-promise">
+            <span>✅ No advance payment</span>
+            <span>✅ Free doorstep delivery</span>
+            <span>✅ Cancel anytime</span>
+          </div>
+          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20BIG%20TOYS%2C%20I%20just%20submitted%20a%20booking!" class="btn-whatsapp" target="_blank" rel="noopener">📲 Also Message on WhatsApp</a>
+          <button class="btn-ghost full-w" id="bookAgain" style="margin-top:12px">Book Another Toy</button>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="booking-sidebar">
+        <div class="sidebar-card">
+          <div class="sidebar-icon">📞</div>
+          <h4>Call Us Directly</h4>
+          <a href="tel:+91XXXXXXXXXX" class="sidebar-phone">+91 XXXXX XXXXX</a>
+          <p>Mon–Sun · 8 AM – 9 PM</p>
+        </div>
+        <div class="sidebar-card">
+          <div class="sidebar-icon">📍</div>
+          <h4>Available Statewide</h4>
+          <p>All 30+ districts of Karnataka — from Bengaluru to Bidar.</p>
+        </div>
+        <div class="sidebar-card highlight">
+          <div class="sidebar-icon">⚡</div>
+          <h4>Same-Day Booking</h4>
+          <p>Order before 12 PM for same-day delivery in Bengaluru.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog-section" id="blog">
+  <div class="section-container">
+    <div class="section-header">
+      <div class="section-eyebrow">SEO Blog</div>
+      <h2 class="section-title">INSIGHTS &amp; <span class="accent">GUIDES</span></h2>
+    </div>
+    <div class="blog-grid">
+      <article class="blog-card featured">
+        <div class="blog-img">
+          <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=700&q=80" alt="Best ride-on toy rentals in Karnataka" loading="lazy"/>
+          <span class="blog-tag">Guide</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta">June 2025 · 5 min read</div>
+          <h3>Top 5 Ride-On Toys for Kids' Parties in Karnataka (2025)</h3>
+          <p>Planning a birthday or event? Here's why luxury ride-on toy rentals are the biggest trend at kids' parties across Bengaluru, Mysuru, and beyond.</p>
+          <a href="#" class="blog-read">Read Article →</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img small">
+          <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=400&q=80" alt="Safety tips for kids ride on toys" loading="lazy"/>
+          <span class="blog-tag">Safety</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta">May 2025 · 3 min read</div>
+          <h3>Safety First: What to Check Before Renting a Ride-On Toy</h3>
+          <p>Speed governors, parental remotes, and seat belts — a complete checklist for safe toy rentals at events.</p>
+          <a href="#" class="blog-read">Read Article →</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img small">
+          <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=400&q=80" alt="Kids event planning tips Karnataka" loading="lazy"/>
+          <span class="blog-tag">Events</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta">April 2025 · 4 min read</div>
+          <h3>How to Plan the Perfect Kids' Event in Bengaluru</h3>
+          <p>From venue selection to entertainment — the ultimate guide to unforgettable kids' events in Karnataka's capital city.</p>
+          <a href="#" class="blog-read">Read Article →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- COVERAGE -->
+<section class="coverage-section">
+  <div class="section-container">
+    <div class="coverage-inner">
+      <div class="coverage-text">
+        <div class="section-eyebrow">Pan-Karnataka Coverage</div>
+        <h2 class="section-title">WE DELIVER <span class="accent">EVERYWHERE</span></h2>
+        <p>From the hills of Coorg to the coasts of Mangaluru, from the heritage city of Hampi to the tech hub of Bengaluru — BIG TOYS reaches every corner of Karnataka.</p>
+        <div class="district-tags">
+          <span>Bengaluru</span><span>Mysuru</span><span>Mangaluru</span>
+          <span>Hubballi</span><span>Belagavi</span><span>Kalaburagi</span>
+          <span>Shivamogga</span><span>Tumakuru</span><span>Hassan</span>
+          <span>Udupi</span><span>Ballari</span><span>Raichur</span>
+          <span>+ 18 more</span>
+        </div>
+      </div>
+      <div class="coverage-visual">
+        <div class="karnataka-shape">
+          <svg viewBox="0 0 300 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60 20 L240 10 L280 60 L270 100 L290 150 L260 200 L240 260 L200 310 L150 300 L100 290 L60 250 L30 200 L10 150 L20 80 Z" fill="var(--accent-dim)" stroke="var(--accent)" stroke-width="2"/>
+            <circle cx="140" cy="180" r="8" fill="var(--accent)" class="pulse-dot"/>
+            <circle cx="100" cy="230" r="5" fill="var(--accent)" opacity="0.7"/>
+            <circle cx="200" cy="150" r="5" fill="var(--accent)" opacity="0.7"/>
+            <circle cx="170" cy="80" r="5" fill="var(--accent)" opacity="0.7"/>
+            <circle cx="80" cy="130" r="5" fill="var(--accent)" opacity="0.7"/>
+            <circle cx="220" cy="230" r="5" fill="var(--accent)" opacity="0.7"/>
+            <text x="110" y="185" fill="var(--accent)" font-size="10" font-family="Rajdhani" font-weight="700">BENGALURU</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="contact">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#hero" class="brand footer-brand-logo">
+        <span class="brand-big">BIG</span><span class="brand-toys">TOYS</span>
+        <span class="brand-tag">KARNATAKA</span>
+      </a>
+      <p class="footer-tagline">Karnataka's most thrilling luxury ride-on toy rentals.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">in</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="WhatsApp">📲</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Quick Links</h5>
+      <a href="#toys">Our Toys</a>
+      <a href="#features">Why BIG TOYS</a>
+      <a href="#booking">Book Now</a>
+      <a href="#blog">Blog</a>
+    </div>
+    <div class="footer-col">
+      <h5>Our Toys</h5>
+      <a href="#toys">Lamborghini Supercar</a>
+      <a href="#toys">Monster ATV Quad</a>
+      <a href="#toys">Electric Sports Bike</a>
+      <a href="#toys">Luxury Mini Jeep SUV</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="tel:+91XXXXXXXXXX">📞 +91 XXXXX XXXXX</a>
+      <a href="mailto:hello@bigtoys.in">✉️ hello@bigtoys.in</a>
+      <a href="#">📍 Bengaluru, Karnataka</a>
+      <p class="footer-hours">Mon–Sun · 8 AM – 9 PM</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-legal">© 2025 BIG TOYS · All Rights Reserved · Toys available all over Karnataka</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Sitemap</a>
+    </div>
+    <div class="footer-powered">
+      <div class="powered-logo-wrap">
+        <div class="nw-logo"><span class="nw-n">N</span><span class="nw-w">W</span></div>
+        <div class="powered-text">
+          <span class="powered-brand">nammaweb.com</span>
+          <span class="powered-sub">Helpline · nammaweb.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>:root {
+  --bg:          #080a0f;
+  --bg2:         #0d1017;
+  --bg3:         #111520;
+  --accent:      #f0a500;
+  --accent-dim:  rgba(240,165,0,0.12);
+  --accent-glow: rgba(240,165,0,0.35);
+  --red:         #e03434;
+  --text:        #e8e8e8;
+  --text2:       #9ca3af;
+  --text3:       #6b7280;
+  --border:      rgba(255,255,255,0.07);
+  --card-bg:     rgba(255,255,255,0.04);
+  --radius:      14px;
+  --radius-lg:   22px;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body:    'Barlow', sans-serif;
+  --font-ui:      'Rajdhani', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.65; overflow-x: hidden; }
+img { display: block; max-width: 100%; object-fit: cover; }
+a { text-decoration: none; color: inherit; }
+input, select, button { font-family: var(--font-body); }
+.section-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.hidden { display: none !important; }
+.accent { color: var(--accent); }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
+
+/* NAV */
+.nav-header { position: fixed; top: 0; left: 0; right: 0; z-index: 999; background: rgba(8,10,15,0.85); backdrop-filter: blur(18px); border-bottom: 1px solid var(--border); transition: all 0.3s; }
+.nav-header.scrolled { background: rgba(8,10,15,0.97); box-shadow: 0 4px 30px rgba(0,0,0,0.5); }
+.nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+.brand { display: flex; align-items: baseline; gap: 4px; position: relative; }
+.brand-big { font-family: var(--font-display); font-size: 2rem; color: var(--accent); line-height: 1; letter-spacing: 2px; }
+.brand-toys { font-family: var(--font-display); font-size: 2rem; color: var(--text); line-height: 1; letter-spacing: 2px; }
+.brand-tag { font-family: var(--font-ui); font-size: 0.55rem; color: var(--text3); letter-spacing: 3px; text-transform: uppercase; position: absolute; bottom: -12px; left: 0; }
+.nav-links { display: flex; align-items: center; gap: 36px; }
+.nav-links a { font-family: var(--font-ui); font-size: 0.95rem; font-weight: 600; letter-spacing: 1px; color: var(--text2); text-transform: uppercase; transition: color 0.2s; }
+.nav-links a:hover { color: var(--text); }
+.nav-links .nav-cta { background: var(--accent); color: #000; padding: 8px 20px; border-radius: 6px; font-weight: 700; transition: opacity 0.2s, transform 0.2s; }
+.nav-links .nav-cta:hover { opacity: 0.88; transform: translateY(-1px); }
+.hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; }
+.hamburger span { display: block; width: 24px; height: 2px; background: var(--text); border-radius: 2px; transition: all 0.3s; }
+.mobile-menu { display: none; flex-direction: column; background: var(--bg2); border-top: 1px solid var(--border); padding: 16px 24px 24px; gap: 4px; }
+.mobile-menu a { font-family: var(--font-ui); font-size: 1.1rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--text2); padding: 12px 0; border-bottom: 1px solid var(--border); }
+.mobile-menu a:last-child { border-bottom: none; }
+.mobile-menu .nav-cta { background: var(--accent); color: #000; padding: 12px 20px; border-radius: 8px; margin-top: 8px; text-align: center; border-bottom: none !important; }
+
+/* HERO */
+.hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding: 120px 24px 80px; }
+.hero-bg { position: absolute; inset: 0; z-index: 0; }
+.hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(240,165,0,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(240,165,0,0.06) 1px, transparent 1px); background-size: 60px 60px; mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%); }
+.hero-glow { position: absolute; border-radius: 50%; filter: blur(120px); pointer-events: none; }
+.g1 { width: 700px; height: 700px; background: rgba(240,165,0,0.15); top: -200px; right: -200px; }
+.g2 { width: 400px; height: 400px; background: rgba(224,52,52,0.08); bottom: -100px; left: -100px; }
+.hero-content { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; width: 100%; }
+.hero-label { font-family: var(--font-ui); font-size: 0.8rem; letter-spacing: 5px; text-transform: uppercase; color: var(--accent); margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
+.hero-label::before { content: ''; display: block; width: 40px; height: 2px; background: var(--accent); }
+.hero-title { display: flex; flex-direction: column; line-height: 0.88; margin-bottom: 28px; }
+.hero-title .line1 { font-family: var(--font-display); font-size: clamp(5rem, 14vw, 10rem); color: var(--text); letter-spacing: -2px; }
+.hero-title .line2 { font-family: var(--font-display); font-size: clamp(6rem, 18vw, 14rem); color: var(--accent); letter-spacing: -4px; line-height: 0.85; }
+.hero-title .line3 { font-family: var(--font-display); font-size: clamp(2rem, 5vw, 4rem); color: var(--text2); letter-spacing: 8px; }
+.hero-sub { font-size: 1.15rem; color: var(--text2); max-width: 540px; margin-bottom: 36px; font-weight: 300; line-height: 1.7; }
+.hero-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 60px; }
+
+.btn-primary { display: inline-block; background: var(--accent); color: #000; font-family: var(--font-ui); font-weight: 700; font-size: 0.95rem; letter-spacing: 2px; text-transform: uppercase; padding: 14px 36px; border-radius: 8px; border: none; cursor: pointer; transition: all 0.25s; position: relative; overflow: hidden; }
+.btn-primary::after { content: ''; position: absolute; inset: 0; background: rgba(255,255,255,0.15); opacity: 0; transition: opacity 0.2s; }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px var(--accent-glow); }
+.btn-primary:hover::after { opacity: 1; }
+.btn-primary.full-w { width: 100%; text-align: center; }
+.btn-ghost { display: inline-block; background: transparent; color: var(--text); font-family: var(--font-ui); font-weight: 600; font-size: 0.95rem; letter-spacing: 1px; text-transform: uppercase; padding: 14px 28px; border-radius: 8px; border: 1px solid var(--border); cursor: pointer; transition: all 0.25s; }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+
+.hero-stats { display: flex; align-items: center; gap: 32px; flex-wrap: wrap; }
+.stat { display: flex; flex-direction: column; gap: 2px; }
+.stat-n { font-family: var(--font-display); font-size: 2rem; color: var(--text); line-height: 1; }
+.stat-l { font-family: var(--font-ui); font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text3); }
+.stat-div { width: 1px; height: 40px; background: var(--border); }
+.hero-scroll-hint { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 1; }
+.hero-scroll-hint span { font-family: var(--font-ui); font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: var(--text3); }
+.scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, var(--accent), transparent); animation: scrollAnim 2s ease-in-out infinite; }
+@keyframes scrollAnim { 0%,100% { opacity: 0.3; } 50% { opacity: 1; } }
+
+/* SECTION COMMON */
+.section-header { text-align: center; margin-bottom: 60px; }
+.section-eyebrow { font-family: var(--font-ui); font-size: 0.75rem; letter-spacing: 5px; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+.section-title { font-family: var(--font-display); font-size: clamp(2.4rem, 5vw, 4rem); line-height: 1; color: var(--text); letter-spacing: 2px; margin-bottom: 16px; }
+.section-sub { font-size: 1.05rem; color: var(--text2); max-width: 520px; margin: 0 auto; font-weight: 300; }
+
+/* TOYS */
+.toys-section { padding: 100px 0; background: var(--bg2); }
+.toys-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
+.toy-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; transition: all 0.35s; }
+.toy-card:hover { border-color: rgba(240,165,0,0.3); transform: translateY(-6px); box-shadow: 0 24px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(240,165,0,0.15); }
+.toy-img-wrap { position: relative; height: 260px; overflow: hidden; }
+.toy-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.toy-card:hover .toy-img-wrap img { transform: scale(1.06); }
+.toy-badge { position: absolute; top: 16px; left: 16px; background: var(--accent); color: #000; font-family: var(--font-ui); font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; }
+.toy-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s; }
+.toy-card:hover .toy-overlay { opacity: 1; }
+.toy-book-btn { background: var(--accent); color: #000; font-family: var(--font-ui); font-weight: 700; font-size: 0.9rem; letter-spacing: 2px; text-transform: uppercase; padding: 12px 28px; border-radius: 8px; }
+.toy-info { padding: 24px; }
+.toy-num { font-family: var(--font-display); font-size: 3rem; color: rgba(240,165,0,0.15); line-height: 1; margin-bottom: -8px; letter-spacing: 2px; }
+.toy-name { font-family: var(--font-display); font-size: 1.6rem; letter-spacing: 2px; color: var(--text); margin-bottom: 10px; }
+.toy-desc { font-size: 0.9rem; color: var(--text2); line-height: 1.6; margin-bottom: 16px; }
+.toy-meta { display: flex; justify-content: space-between; align-items: center; }
+.toy-age { font-family: var(--font-ui); font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text3); background: var(--bg3); padding: 4px 10px; border-radius: 4px; }
+.toy-price { font-family: var(--font-ui); font-size: 1rem; font-weight: 700; color: var(--accent); letter-spacing: 1px; }
+
+/* FEATURES */
+.features-section { padding: 100px 0; background: var(--bg); }
+.features-layout { display: grid; grid-template-columns: 1fr 1.3fr; gap: 80px; align-items: start; }
+.features-left .section-title { text-align: left; margin-bottom: 20px; }
+.features-body { font-size: 1rem; color: var(--text2); line-height: 1.8; margin-bottom: 36px; font-weight: 300; }
+.features-right { display: flex; flex-direction: column; }
+.feat-item { display: flex; gap: 20px; align-items: flex-start; padding: 24px 0; border-bottom: 1px solid var(--border); }
+.feat-item:last-child { border-bottom: none; }
+.feat-icon { font-size: 1.6rem; min-width: 44px; height: 44px; background: var(--accent-dim); border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+.feat-item h4 { font-family: var(--font-ui); font-size: 1rem; font-weight: 700; letter-spacing: 1px; color: var(--text); margin-bottom: 6px; text-transform: uppercase; }
+.feat-item p { font-size: 0.9rem; color: var(--text2); line-height: 1.6; }
+
+/* BOOKING */
+.booking-section { padding: 100px 0; background: var(--bg2); position: relative; overflow: hidden; }
+.booking-bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.booking-glow { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(240,165,0,0.08), transparent 70%); top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.booking-section .section-container { position: relative; z-index: 1; }
+.booking-wrapper { display: grid; grid-template-columns: 1fr 280px; gap: 32px; align-items: start; }
+.booking-card { background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 40px; }
+.booking-steps { display: flex; align-items: center; margin-bottom: 40px; }
+.bstep { display: flex; align-items: center; gap: 10px; opacity: 0.4; transition: opacity 0.3s; }
+.bstep.active { opacity: 1; }
+.bstep.done { opacity: 0.7; }
+.bstep-n { width: 32px; height: 32px; background: var(--border); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--font-ui); font-weight: 700; font-size: 0.9rem; transition: all 0.3s; }
+.bstep.active .bstep-n { background: var(--accent); color: #000; }
+.bstep.done .bstep-n { background: rgba(240,165,0,0.3); color: var(--accent); }
+.bstep-l { font-family: var(--font-ui); font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase; color: var(--text2); }
+.bstep-line { flex: 1; height: 1px; background: var(--border); margin: 0 12px; }
+.booking-step-content h3 { font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 2px; color: var(--text); margin-bottom: 8px; }
+.booking-note { font-size: 0.9rem; color: var(--text2); margin-bottom: 28px; }
+
+/* 10-digit boxes */
+.phone-input-wrap { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
+.phone-prefix { font-family: var(--font-ui); font-size: 1.1rem; font-weight: 700; color: var(--accent); letter-spacing: 1px; }
+.digit-boxes { display: flex; gap: 8px; flex-wrap: wrap; }
+.digit-box { width: 44px; height: 52px; background: var(--bg2); border: 1.5px solid var(--border); border-radius: 10px; color: var(--text); font-family: var(--font-display); font-size: 1.4rem; text-align: center; transition: all 0.2s; outline: none; caret-color: var(--accent); }
+.digit-box:focus { border-color: var(--accent); background: rgba(240,165,0,0.06); box-shadow: 0 0 0 3px var(--accent-dim); }
+.digit-box.filled { border-color: rgba(240,165,0,0.5); background: rgba(240,165,0,0.06); color: var(--accent); }
+.digit-error { color: var(--red); font-size: 0.82rem; margin-bottom: 20px; display: none; font-family: var(--font-ui); }
+.digit-error.show { display: block; }
+
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+.form-group { display: flex; flex-direction: column; gap: 8px; }
+.form-group label { font-family: var(--font-ui); font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text2); }
+.form-group select, .form-group input[type="date"] { background: var(--bg2); border: 1.5px solid var(--border); border-radius: 10px; color: var(--text); padding: 12px 16px; font-size: 0.95rem; outline: none; transition: border-color 0.2s; cursor: pointer; }
+.form-group select option { background: var(--bg2); }
+.form-group select:focus, .form-group input[type="date"]:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-dim); }
+.booking-btn-row { display: flex; gap: 12px; }
+
+.success-icon { font-size: 3rem; text-align: center; margin-bottom: 12px; animation: bounceIn 0.5s ease; }
+@keyframes bounceIn { 0% { transform: scale(0); } 70% { transform: scale(1.2); } 100% { transform: scale(1); } }
+.confirm-details { background: var(--bg2); border-radius: 10px; padding: 16px 20px; margin: 20px 0; font-family: var(--font-ui); font-size: 0.9rem; color: var(--text2); line-height: 2; }
+.booking-promise { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 24px; }
+.booking-promise span { font-family: var(--font-ui); font-size: 0.8rem; color: var(--text2); background: var(--bg2); padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); }
+.btn-whatsapp { display: block; text-align: center; background: #25d366; color: #fff; font-family: var(--font-ui); font-weight: 700; font-size: 0.95rem; padding: 14px; border-radius: 10px; transition: opacity 0.2s; }
+.btn-whatsapp:hover { opacity: 0.88; }
+
+.booking-sidebar { display: flex; flex-direction: column; gap: 16px; }
+.sidebar-card { background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; transition: border-color 0.3s; }
+.sidebar-card:hover { border-color: rgba(240,165,0,0.3); }
+.sidebar-card.highlight { border-color: rgba(240,165,0,0.3); background: var(--accent-dim); }
+.sidebar-icon { font-size: 1.4rem; margin-bottom: 10px; }
+.sidebar-card h4 { font-family: var(--font-ui); font-size: 0.9rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text); margin-bottom: 6px; }
+.sidebar-phone { font-family: var(--font-display); font-size: 1.3rem; color: var(--accent); display: block; margin-bottom: 4px; letter-spacing: 2px; }
+.sidebar-card p { font-size: 0.85rem; color: var(--text2); line-height: 1.6; }
+
+/* BLOG */
+.blog-section { padding: 100px 0; background: var(--bg); }
+.blog-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 24px; align-items: start; }
+.blog-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; transition: all 0.3s; }
+.blog-card:hover { border-color: rgba(240,165,0,0.25); transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.3); }
+.blog-img { position: relative; overflow: hidden; }
+.blog-img img { width: 100%; height: 220px; object-fit: cover; transition: transform 0.5s; }
+.blog-img.small img { height: 160px; }
+.blog-card:hover .blog-img img { transform: scale(1.05); }
+.blog-tag { position: absolute; top: 14px; left: 14px; background: var(--accent); color: #000; font-family: var(--font-ui); font-size: 0.65rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 3px 10px; border-radius: 20px; }
+.blog-body { padding: 24px; }
+.blog-meta { font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text3); margin-bottom: 10px; }
+.blog-body h3 { font-family: var(--font-ui); font-size: 1.05rem; font-weight: 700; color: var(--text); line-height: 1.4; margin-bottom: 10px; }
+.blog-body p { font-size: 0.88rem; color: var(--text2); line-height: 1.7; margin-bottom: 16px; }
+.blog-read { font-family: var(--font-ui); font-size: 0.82rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); }
+.blog-read:hover { text-decoration: underline; }
+
+/* COVERAGE */
+.coverage-section { padding: 80px 0; background: var(--bg2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.coverage-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.coverage-text .section-title { text-align: left; margin-bottom: 16px; }
+.coverage-text p { font-size: 1rem; color: var(--text2); line-height: 1.8; margin-bottom: 28px; }
+.district-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.district-tags span { font-family: var(--font-ui); font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase; color: var(--text2); background: var(--bg3); border: 1px solid var(--border); padding: 5px 14px; border-radius: 20px; transition: all 0.2s; }
+.district-tags span:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+.coverage-visual { display: flex; justify-content: center; align-items: center; }
+.karnataka-shape { width: 280px; animation: floatMap 6s ease-in-out infinite; filter: drop-shadow(0 0 30px rgba(240,165,0,0.15)); }
+@keyframes floatMap { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+.pulse-dot { animation: pulseDot 2s ease-in-out infinite; }
+@keyframes pulseDot { 0%,100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
+
+/* FOOTER */
+.footer { background: #040507; border-top: 1px solid var(--border); }
+.footer-top { max-width: 1200px; margin: 0 auto; padding: 60px 24px 40px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
+.footer-tagline { font-size: 0.9rem; color: var(--text3); margin: 16px 0 20px; line-height: 1.6; max-width: 260px; }
+.footer-social { display: flex; gap: 10px; }
+.footer-social a { width: 36px; height: 36px; background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; color: var(--text2); transition: all 0.2s; }
+.footer-social a:hover { border-color: var(--accent); color: var(--accent); }
+.footer-col h5 { font-family: var(--font-ui); font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase; color: var(--text3); margin-bottom: 20px; }
+.footer-col a { display: block; font-size: 0.9rem; color: var(--text2); margin-bottom: 10px; transition: color 0.2s; }
+.footer-col a:hover { color: var(--accent); }
+.footer-hours { font-size: 0.8rem; color: var(--text3); margin-top: 8px; font-style: italic; }
+.footer-bottom { border-top: 1px solid var(--border); max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.footer-legal { font-size: 0.8rem; color: var(--text3); }
+.footer-links { display: flex; gap: 24px; }
+.footer-links a { font-size: 0.8rem; color: var(--text3); transition: color 0.2s; }
+.footer-links a:hover { color: var(--accent); }
+
+/* NAMMAWEB LOGO */
+.footer-powered { display: flex; justify-content: flex-end; }
+.powered-logo-wrap { display: flex; align-items: center; gap: 12px; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 10px 18px; transition: border-color 0.3s; }
+.powered-logo-wrap:hover { border-color: rgba(240,165,0,0.35); }
+.nw-logo { width: 42px; height: 42px; background: linear-gradient(135deg, var(--accent), #e07800); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 1rem; color: #000; font-weight: 900; }
+.powered-text { display: flex; flex-direction: column; }
+.powered-brand { font-family: var(--font-ui); font-size: 0.9rem; font-weight: 700; letter-spacing: 1px; color: var(--accent); }
+.powered-sub { font-family: var(--font-ui); font-size: 0.7rem; letter-spacing: 1px; color: var(--text3); text-transform: uppercase; }
+
+/* BACK TO TOP */
+.back-top { position: fixed; bottom: 32px; right: 32px; width: 44px; height: 44px; background: var(--accent); color: #000; border: none; border-radius: 50%; font-size: 1.1rem; font-weight: 700; cursor: pointer; z-index: 900; opacity: 0; pointer-events: none; transition: all 0.3s; box-shadow: 0 4px 20px var(--accent-glow); }
+.back-top.visible { opacity: 1; pointer-events: all; }
+.back-top:hover { transform: translateY(-3px); }
+
+/* ANIMATIONS */
+.fade-in { opacity: 0; transform: translateY(28px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .features-layout { grid-template-columns: 1fr; gap: 48px; }
+  .blog-grid { grid-template-columns: 1fr 1fr; }
+  .blog-card.featured { grid-column: 1 / -1; }
+  .footer-top { grid-template-columns: 1fr 1fr; gap: 36px; }
+  .booking-wrapper { grid-template-columns: 1fr; }
+  .booking-sidebar { display: grid; grid-template-columns: repeat(3,1fr); }
+}
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .mobile-menu.open { display: flex; }
+  .hero { padding: 100px 20px 70px; }
+  .toys-grid { grid-template-columns: 1fr; }
+  .toy-img-wrap { height: 220px; }
+  .booking-card { padding: 24px 20px; }
+  .digit-box { width: 36px; height: 44px; font-size: 1.2rem; }
+  .digit-boxes { gap: 5px; }
+  .form-grid { grid-template-columns: 1fr; }
+  .blog-grid { grid-template-columns: 1fr; }
+  .coverage-inner { grid-template-columns: 1fr; }
+  .coverage-visual { display: none; }
+  .footer-top { grid-template-columns: 1fr 1fr; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .footer-powered { width: 100%; justify-content: flex-start; }
+  .booking-sidebar { grid-template-columns: 1fr; }
+  .bstep-l { display: none; }
+}
+@media (max-width: 480px) {
+  .hero-title .line1 { font-size: 4rem; }
+  .hero-title .line2 { font-size: 5.5rem; }
+  .hero-title .line3 { font-size: 1.4rem; letter-spacing: 4px; }
+  .section-title { font-size: 2rem; }
+  .footer-top { grid-template-columns: 1fr; }
+  .phone-input-wrap { flex-direction: column; align-items: flex-start; }
+  .digit-box { width: 30px; height: 40px; font-size: 1.1rem; }
+  .digit-boxes { gap: 4px; } // Navbar scroll
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 40);
+  document.getElementById('backTop').classList.toggle('visible', window.scrollY > 400);
+});
+
+// Back to top
+document.getElementById('backTop').addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// Hamburger
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+function closeMobile() { mobileMenu.classList.remove('open'); }
+
+// Scroll fade-in
+const fadeEls = document.querySelectorAll('.toy-card, .feat-item, .blog-card, .sidebar-card, .coverage-text');
+fadeEls.forEach(el => el.classList.add('fade-in'));
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+}, { threshold: 0.12 });
+fadeEls.forEach((el, i) => { el.style.transitionDelay = `${(i % 4) * 80}ms`; observer.observe(el); });
+
+// 10-digit phone input
+const digitBoxes = Array.from(document.querySelectorAll('.digit-box'));
+digitBoxes.forEach((box, index) => {
+  box.addEventListener('input', (e) => {
+    const val = e.target.value.replace(/[^0-9]/g, '');
+    e.target.value = val.slice(-1);
+    if (val) { box.classList.add('filled'); if (index < 9) digitBoxes[index + 1].focus(); }
+    else box.classList.remove('filled');
+  });
+  box.addEventListener('keydown', (e) => {
+    if (e.key === 'Backspace' && !box.value && index > 0) {
+      digitBoxes[index - 1].value = '';
+      digitBoxes[index - 1].classList.remove('filled');
+      digitBoxes[index - 1].focus();
+    }
+    if (e.key === 'ArrowLeft' && index > 0) digitBoxes[index - 1].focus();
+    if (e.key === 'ArrowRight' && index < 9) digitBoxes[index + 1].focus();
+  });
+  box.addEventListener('paste', (e) => {
+    e.preventDefault();
+    const pasted = e.clipboardData.getData('text').replace(/[^0-9]/g, '').slice(0, 10);
+    pasted.split('').forEach((digit, i) => {
+      if (digitBoxes[index + i]) { digitBoxes[index + i].value = digit; digitBoxes[index + i].classList.add('filled'); }
+    });
+    digitBoxes[Math.min(index + pasted.length, 9)].focus();
+  });
+});
+
+function getPhone() { return digitBoxes.map(b => b.value).join(''); }
+
+function validatePhone() {
+  const phone = getPhone();
+  const isValid = phone.length === 10 && /^[6-9][0-9]{9}$/.test(phone);
+  document.getElementById('digitError').classList.toggle('show', !isValid);
+  return isValid;
+}
+
+// Date min
+const dateInput = document.getElementById('eventDate');
+if (dateInput) dateInput.min = new Date().toISOString().split('T')[0];
+
+// Booking steps
+function setStep(step) {
+  [1, 2, 3].forEach(n => {
+    document.getElementById(`booking-step-${n}`).classList.toggle('hidden', n !== step);
+    const ind = document.getElementById(`step-indicator-${n}`);
+    ind.classList.remove('active', 'done');
+    if (n === step) ind.classList.add('active');
+    if (n < step) ind.classList.add('done');
+  });
+}
+
+document.getElementById('nextStep1').addEventListener('click', () => { if (validatePhone()) setStep(2); });
+document.getElementById('backStep2').addEventListener('click', () => setStep(1));
+document.getElementById('nextStep2').addEventListener('click', () => {
+  const toy = document.getElementById('toySelect').value;
+  const date = document.getElementById('eventDate').value;
+  const city = document.getElementById('citySelect').value;
+  const duration = document.getElementById('duration').value;
+  if (!toy || !date || !city) { alert('Please fill in all fields to proceed.'); return; }
+  const phone = getPhone();
+  document.getElementById('confirmPhone').textContent = `+91 ${phone.slice(0,5)} ${phone.slice(5)}`;
+  const d = new Date(date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+  document.getElementById('confirmDetails').innerHTML =
+    `🎠 <strong>Toy:</strong> ${toy}<br/>📅 <strong>Date:</strong> ${d}<br/>⏱ <strong>Duration:</strong> ${duration}<br/>📍 <strong>Location:</strong> ${city}, Karnataka`;
+  setStep(3);
+  document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('bookAgain').addEventListener('click', () => {
+  digitBoxes.forEach(b => { b.value = ''; b.classList.remove('filled'); });
+  ['toySelect','eventDate','citySelect'].forEach(id => document.getElementById(id).value = '');
+  setStep(1);
+  document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+});
